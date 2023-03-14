@@ -12,7 +12,7 @@ API_HASH = os.environ.get("API_HASH", "ec67ae4aa1daff513fe12f8cac156b17")
 BOT_TOKEN = os.environ.get("5922718859:AAHhbTYqcebKNAyieWgVWn83HqK7NH_TcEc")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("-1001502874809")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
+DATABASE_NAME = os.environ.get("aglink", "Db Name")
 DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
