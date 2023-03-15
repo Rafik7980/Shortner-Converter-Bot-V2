@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 START_MESSAGE = '''**Hello, {}
 I Am ShortnerFly.com, Bulk Link Converter. I Can Convert Links Directly From Your ShortnerFly Account,
     
-1. Go To 👉 https://ShortnerFly.com/member/tools/api  
+1. Go To 👉 https://bizzteg.online/member/tools/api  
 2. Than Copy API Key
 3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
 
@@ -24,7 +24,7 @@ If You Want Any **Other Shortner** Link Converter Bot Instead Of Shortnerfly tha
 HELP_MESSAGE = '''**Hello, {}
 I Am ShortnerFly, Bulk Link Converter Bot. I Can Convert Links Directly From Your ShortnerFly Account,**
     
-1. Go To 👉 https://ShortnerFly.com/member/tools/api  
+1. Go To 👉 https://bizzteg.online/member/tools/api  
 2. Than **Copy API** Key
 3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
 
@@ -65,7 +65,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/shortnerfly | Shortnerfly"""
+Ex: https://t.me/aglink | aglink"""
 
 
 ADMINS_MESSAGE = """
@@ -110,7 +110,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://shortnerfly/ref/rngharman)
+- Website: [{base_site}](https://bizzteg.online/ref/bizzteg)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -131,7 +131,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
-Get API From [{base_site}](https://shortnerfly/ref/rngharman)
+Get API From [{base_site}](https://bizzteg.online/ref/bizzteg)
 
 Current {base_site} API: `{shortener_api}`"""
 
